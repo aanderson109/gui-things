@@ -23,8 +23,11 @@ The first thing we will do with each language is create a basic window that mimi
  
  ## The Languages & Packages ##
  Python: PyQT, Tkinter, wxPython, PySimpleGUI
+ 
  Java: JavaFX, Swing, AWT, QtJambi
+ 
  C++: Qt, wxWidgets, JUCE, CEF
+ 
  C#: WPF, WinForms
  
  ### Special Addition: Electron.js Framework ###
