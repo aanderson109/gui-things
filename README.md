@@ -6,9 +6,17 @@ I am going to layout some basic ground rules and the methodology behind how each
 
 With each language, I am going to pick the top packages/modules used for making a desktop app. With each of these packages, and their respective languages, we are going to examine a variety of areas. 
 
- First, we are going to see how much it takes to create a simple "Hello World" window with a menu bar at the top that cascades down with more options. This will serve as a baseline for how quickly you can get off the ground using that language/package combination. Once the window is completed, we are going to look at the quantity and complexity of the code that was needed to construct it. We are also going to comment on the aesthetics.
+The first thing we will do with each language is create a basic window that mimics the windows notepad menu. The requirements to do that are as follows:
+1. Toolbar w/ Cascading Menus
+ - File (New, New Window, Open..., Save, Save As..., Print..., Exit)
+ - Edit (Undo, Cut, Copy, Paste, Delete, Search with Bing..., Find..., Find Next, Find Previous, Replace, Go To..., Select All, Time/Date
+ - Format (Word Wrap, Font...)
+ - View (Zoom > Zoom In > Zoom Out > Restore Default Zoom, [x] Status Bar)
+ - Help (View Help, Send Feedback, About Notepad)
  
- After we have finished making a window for each language/package combination, we'll move onto to making two different kinds of applications. The first will be a simple desktop calculator and the second will be a password manager. We'll follow the same procedure as before and examine the quantity/complexity of the program we wrote along with the overall look of it.
+ At first, none of these buttons except for exit actually have to do anything. However, we'll make them actually do something as a second project so we can compare the languages for their ability to add functionality in addition to their visuals. The NotePad project benchmark will be one of a couple different projects we use to compare the languages.
+ 
+ After the NotePad benchmark, we'll build the following: Simple Password Manager and Calculator. Beyond those, it will vary by each language. We could do retro kind of games like hungry snake, hangman, tic-tac-toe, pong, space invaders, etc. but that might stay language specific depending on the capability of some languages to do things like that.
  
  ## The Rules ##
  We are going to lay down some ground rules just to make sure one language doesn't have an advantage over the other. For each language, we'll use the language plus the package we're using and any other common packages used to make things simpler. At the beginning, we won't use things like CSS or other styling/mark-up. We'll do this just to compare the basic look of what each language can create.
